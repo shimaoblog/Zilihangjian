@@ -1,0 +1,218 @@
+/* 人文手写风主题 - 全量霞鹜文楷字体系统 */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
+
+:root {
+  --primary: #8b5a2b;
+  --secondary: #d2b48c;
+  --accent: #cd853f;
+  --bg-light: #faf8f5;
+  --bg-paper: #f5f1e8;
+  --text-dark: #3d2b1f;
+  --text-muted: #6b5344;
+  --shadow: rgba(139, 90, 43, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'LXGW WenKai Screen', serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.8;
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(210, 180, 140, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(205, 133, 63, 0.1) 0%, transparent 50%);
+}
+
+/* 仅保留手写英文用于装饰性文字，中文全用霞鹜文楷 */
+.handwritten {
+  font-family: 'Caveat', cursive;
+}
+
+.title-font {
+  font-family: 'LXGW WenKai Screen', serif;
+  font-weight: 700;
+}
+
+/* 导航栏 - 手写质感 */
+nav {
+  background: linear-gradient(to right, #faf8f5, #f5f1e8, #faf8f5);
+  border-bottom: 2px dashed var(--secondary);
+  box-shadow: 0 2px 10px var(--shadow);
+  position: relative;
+}
+
+.nav-link {
+  position: relative;
+  color: var(--text-dark);
+  text-decoration: none;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+  transform: rotate(-1deg);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* 按钮 - 手绘边框效果 */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px 12px 4px 12px;
+  font-family: 'LXGW WenKai Screen', serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 0 var(--secondary);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--secondary);
+  color: white;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px 4px 12px 4px;
+  font-family: 'LXGW WenKai Screen', serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* 卡片 - 纸张质感+轻微倾斜 */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px var(--shadow);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, var(--primary), var(--accent), var(--secondary));
+}
+
+.card:hover {
+  transform: translateY(-5px) rotate(0.5deg);
+  box-shadow: 0 8px 25px var(--shadow);
+}
+
+/* 纸张纹理背景 */
+.paper-bg {
+  background-color: var(--bg-paper);
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h100v100H0z' fill='%23f5f1e8'/%3E%3Cpath d='M0 50h100M50 0v100' stroke='%23e8e0d0' stroke-width='0.5'/%3E%3C/svg%3E");
+}
+
+/* 标题装饰 */
+.section-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 10%;
+  width: 80%;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  transform: rotate(-1deg);
+}
+
+/* 页脚 */
+footer {
+  background-color: var(--text-dark);
+  color: var(--bg-light);
+  border-top: 3px solid var(--accent);
+}
+
+/* 移动端菜单 */
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-light);
+  border-bottom: 2px dashed var(--secondary);
+  padding: 1rem 0;
+  box-shadow: 0 4px 10px var(--shadow);
+}
+
+.mobile-menu.active {
+  display: block;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 0.75rem 2rem;
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.mobile-menu a:hover {
+  background: var(--bg-paper);
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  #mobile-menu-btn, .mobile-menu {
+    display: none !important;
+  }
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .card:hover {
+    transform: none;
+  }
+}
+
