@@ -13,6 +13,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          # 加上这个，确保后续 git pull/push 能正常操作
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -25,15 +28,35 @@ jobs:
       - name: Run RSS aggregator
         run: node rss-aggregator.js
 
+      - name: Debug - List files (可选，排错用)
+        run: |
+          echo "=== 当前目录结构 ==="
+          ls -laR
+          echo "=== data 目录是否存在 ==="
+          ls -la ./data || echo "data 目录不存在"
+
       - name: Commit & Push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          # 只添加我们需要的两个文件，忽略其他文件
+
+          # 先创建 data 目录（如果不存在），避免后续步骤报错
+          mkdir -p data
+
+          # 检查文件是否存在，不存在就创建空文件（防止 git add 报错）
+          if [ ! -f "data/posts.json" ]; then
+            echo "{}" > data/posts.json
+          fi
+          if [ ! -f "feed.xml" ]; then
+            echo '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"></rss>' > feed.xml
+          fi
+
+          # 添加文件
           git add data/posts.json feed.xml
-          # 提交，如果没有变更就跳过提交
+
+          # 提交（如果没有变更，直接跳过）
           git commit -m "Auto update RSS & posts data" || echo "No changes to commit, skipping push"
-          # 拉取远程最新代码，解决冲突
+
+          # 拉取并推送（加上 --set-upstream 避免分支问题）
           git pull --rebase origin main
-          # 推送代码
-          git push
+          git push origin main
