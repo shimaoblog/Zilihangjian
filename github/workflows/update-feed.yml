@@ -2,8 +2,8 @@ name: Auto Update RSS Feed
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时自动抓取一次
-  workflow_dispatch:       # 支持手动点击运行
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
   push:
     branches: [ main ]
 
@@ -32,15 +32,16 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          # 只添加我们要提交的两个文件
+          # 只添加目标文件
           git add data/posts.json feed.xml
 
-          # 检查是否有变更，有变更才提交，没有就直接跳过
-          if git diff --cached --quiet; then
-            echo "No changes to commit, skipping push"
-            exit 0
-          else
+          # 检查是否有变更
+          CHANGES=$(git status --porcelain)
+          if [ -n "$CHANGES" ]; then
             git commit -m "Auto update RSS & posts data"
             git pull --rebase origin main
             git push origin main
+          else
+            echo "No changes, skipping commit/push"
+            exit 0
           fi
