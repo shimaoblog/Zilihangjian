@@ -32,27 +32,15 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          # 1. 先创建目录，避免文件不存在报错
-          mkdir -p data
-
-          # 2. 确保目标文件存在，不存在就创建空文件
-          if [ ! -f "data/posts.json" ]; then
-            echo "{}" > data/posts.json
-          fi
-          if [ ! -f "feed.xml" ]; then
-            echo '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"></rss>' > feed.xml
-          fi
-
-          # 3. 只添加我们要提交的文件，其他文件一概不管
+          # 只添加我们要提交的两个文件
           git add data/posts.json feed.xml
 
-          # 4. 关键：用 --allow-empty 让 commit 即使没变更也不报错
-          git commit -m "Auto update RSS & posts data" --allow-empty
-
-          # 5. 拉取并推送
-          git pull --rebase origin main
-          git push origin main
-
-      - name: Clean up (可选，避免文件残留影响后续构建)
-        run: |
-          rm -rf node_modules package-lock.json package.json
+          # 检查是否有变更，有变更才提交，没有就直接跳过
+          if git diff --cached --quiet; then
+            echo "No changes to commit, skipping push"
+            exit 0
+          else
+            git commit -m "Auto update RSS & posts data"
+            git pull --rebase origin main
+            git push origin main
+          fi
