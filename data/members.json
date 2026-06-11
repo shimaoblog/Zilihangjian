@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "shimaoblog",
+        "blogName": "石猫博客",
+        "blogUrl": "https://blog.imshimao.com",
+        "rssUrl": "https://blog.imshimao.com/feed.xml",
+        "avatar": "https://github.com/shimaoblog.png",
+        "bio": "就叫石猫好啦..."
+    }
+]
+
