@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>申请入驻 | 字里行间</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .note-box{
+            background: #fff9e8;
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        .link-btn{
+            display:inline-block;
+            margin-top:1rem;
+        }
+    </style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="sticky top-0 z-50 py-4">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+        <a href="index.html" class="flex items-center space-x-2">
+            <i class="fas fa-feather-alt text-2xl" style="color: var(--primary);"></i>
+            <span class="title-font text-2xl">字里行间</span>
+        </a>
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="index.html" class="nav-link">首页</a>
+            <a href="members.html" class="nav-link">博主们</a>
+            <a href="feed.html" class="nav-link">文章</a>
+            <a href="guestbook.html" class="nav-link">留言板</a>
+            <a href="join.html" class="btn-primary" style="background:#a0522d;">申请入驻</a>
+        </div>
+        <button class="md:hidden text-xl" id="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="index.html">首页</a>
+            <a href="members.html">博主们</a>
+            <a href="feed.html">文章</a>
+            <a href="guestbook.html">留言板</a>
+            <a href="join.html" class="btn-primary" style="margin: 0.5rem 2rem; text-align: center;">申请入驻</a>
+        </div>
+    </div>
+</nav>
+
+<section class="py-16">
+    <div class="max-w-3xl mx-auto px-4">
+        <h1 class="section-title title-font text-4xl mb-6 text-center">加入我们</h1>
+        <p class="text-center handwritten text-xl mb-10 opacity-70">让你的博客被更多人看见</p>
+
+        <div class="card p-8">
+            <h3 class="title-font text-2xl mb-4">入驻说明</h3>
+            <p>本博客聚合站依托 GitHub 运行，只要你拥有独立博客并提供 <strong>RSS/Atom</strong> 订阅地址，即可申请入驻。</p>
+
+            <div class="note-box">
+                <h4 class="title-font mb-2"><i class="fas fa-info-circle mr-2"></i> 提交方式</h4>
+                <p>点击下方按钮，跳转到 GitHub Issues 提交入驻信息，管理员审核后会将你加入成员列表，并自动抓取你的博客文章。</p>
+            </div>
+
+            <h4 class="title-font text-xl mt-6 mb-3">需要填写的信息：</h4>
+            <ul style="list-style:disc; padding-left:1.5rem; line-height:2;">
+                <li>博主昵称</li>
+                <li>博客名称</li>
+                <li>博客主页链接</li>
+                <li>RSS / Atom 订阅链接</li>
+                <li>个人简介（选填）</li>
+            </ul>
+
+            <a href="https://github.com/shimaoblog/Zilihangjian/issues/new/choose" target="_blank" class="btn-primary link-btn">
+                <i class="fas fa-paper-plane mr-2"></i> 前往提交入驻申请
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="py-12 mt-auto">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0">
+                <div class="flex items-center space-x-2 mb-2">
+                    <i class="fas fa-feather-alt text-xl" style="color: var(--accent);"></i>
+                    <span class="title-font text-xl">字里行间</span>
+                </div>
+                <p class="opacity-70">用文字连接彼此</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="https://github.com/shimaoblog/Zilihangjian" class="opacity-70 hover:opacity-100 text-xl">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="feed.xml" class="opacity-70 hover:opacity-100 text-xl">
+                    <i class="fas fa-rss"></i>
+                </a>
+            </div>
+        </div>
+        <div class="text-center mt-8 pt-8 border-t border-gray-700 opacity-60">
+            <p>© 2026 字里行间 · 用心写，慢慢读</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
