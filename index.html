@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字里行间 | 独立博客聚集地</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* 首页独有样式 */
+        .hero-section {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, #f5f1e8 0%, #faf8f5 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '"';
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            font-size: 12rem;
+            color: rgba(139, 90, 43, 0.05);
+            font-family: 'Caveat', cursive;
+            line-height: 1;
+        }
+
+        .hero-section::after {
+            content: '"';
+            position: absolute;
+            bottom: -4rem;
+            right: 2rem;
+            font-size: 12rem;
+            color: rgba(139, 90, 43, 0.05);
+            font-family: 'Caveat', cursive;
+            line-height: 1;
+        }
+
+        .stat-number {
+            font-family: 'LXGW WenKai Screen', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .post-card:nth-child(odd) {
+            transform: rotate(-0.5deg);
+        }
+
+        .post-card:nth-child(even) {
+            transform: rotate(0.5deg);
+        }
+
+        .post-card:hover {
+            transform: translateY(-5px) rotate(0deg);
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="sticky top-0 z-50 py-4">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <i class="fas fa-feather-alt text-2xl" style="color: var(--primary);"></i>
+                <span class="title-font text-2xl">字里行间</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="members.html" class="nav-link">博主们</a>
+                <a href="feed.html" class="nav-link">文章</a>
+                <a href="guestbook.html" class="nav-link">留言板</a>
+                <a href="join.html" class="btn-primary">申请入驻</a>
+            </div>
+            <button class="md:hidden text-xl" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="mobile-menu" id="mobile-menu">
+                <a href="index.html">首页</a>
+                <a href="members.html">博主们</a>
+                <a href="feed.html">文章</a>
+                <a href="guestbook.html">留言板</a>
+                <a href="join.html" class="btn-primary" style="margin: 0.5rem 2rem; text-align: center;">申请入驻</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区 -->
+    <section class="hero-section">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h1 class="title-font text-4xl md:text-5xl mb-6" style="color: var(--text-dark);">
+                在字里行间，遇见志同道合的人
+            </h1>
+            <p class="text-xl mb-8" style="color: var(--text-muted);">
+                这里是独立博客的避风港，没有算法推荐，只有真诚的文字分享
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="feed.html" class="btn-primary">
+                    <i class="fas fa-book-open mr-2"></i> 读一篇文章
+                </a>
+                <a href="join.html" class="btn-outline">
+                    <i class="fas fa-pen-fancy mr-2"></i> 写下你的故事
+                </a>
+            </div>
+            <p class="handwritten text-2xl mt-12 opacity-70">
+                "每一个独立博客，都是一座小小的孤岛，我们在这里连成大陆"
+            </p>
+        </div>
+    </section>
+
+    <!-- 统计数据 -->
+    <section class="py-16 paper-bg">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <div id="member-count" class="stat-number">0</div>
+                    <p class="text-lg">有趣的灵魂</p>
+                </div>
+                <div class="p-6">
+                    <div id="post-count" class="stat-number">0</div>
+                    <p class="text-lg">真诚的文字</p>
+                </div>
+                <div class="p-6">
+                    <div id="update-time" class="stat-number text-sm">-</div>
+                    <p class="text-lg">最后更新</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新文章 -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="section-title title-font text-3xl mb-12 text-center">最近的文字</h2>
+            <div id="latest-posts" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 文章卡片将由JavaScript动态生成 -->
+            </div>
+            <div class="text-center mt-12">
+                <a href="feed.html" class="inline-flex items-center" style="color: var(--primary);">
+                    <span class="handwritten text-xl">翻到下一页</span>
+                    <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="py-12 mt-auto">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <i class="fas fa-feather-alt text-xl" style="color: var(--accent);"></i>
+                        <span class="title-font text-xl">字里行间</span>
+                    </div>
+                    <p class="opacity-70">用文字连接彼此</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/shimaoblog/Zilihangjian" class="opacity-70 hover:opacity-100 text-xl">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="feed.xml" class="opacity-70 hover:opacity-100 text-xl">
+                        <i class="fas fa-rss"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="text-center mt-8 pt-8 border-t border-gray-700 opacity-60">
+                <p>© 2026 字里行间 · 用心写，慢慢读</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadStats();
+            await loadLatestPosts();
+        });
+    </script>
+</body>
+</html>
+
