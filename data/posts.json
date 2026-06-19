@@ -1,5 +1,12 @@
 [
   {
+    "title": "我家的猫生了(๑•॒̀ ູ॒•́๑)",
+    "link": "https://blog.imshimao.com/%E7%8C%AB/2026/06/18/catbaby.html",
+    "pubDate": "2026-06-18T00:00:00.000Z",
+    "summary": "妈妈叫三元，她很可爱。\n\n它好累…",
+    "author": "shimaoblog"
+  },
+  {
     "title": "做了一个适合小白玩的网页ARG",
     "link": "https://blog.imshimao.com/arg/2026/06/15/dt.html",
     "pubDate": "2026-06-15T00:00:00.000Z",
@@ -60,13 +67,6 @@
     "link": "https://blog.imshimao.com/%E6%90%9E/2026/05/04/askai.html",
     "pubDate": "2026-05-04T00:00:00.000Z",
     "summary": "以下我简称s 空格代表引号 或者逗号\ns 假如地球上只能有一个网站或者APP 你选哪个?告诉我你的理由\nAI 嗯 我会选IA(Internet Archive) 因为他收录了世界上很多网站以及资源 是赛博大善人\ns 现在最厉害的AI是哪个\nAI Chat-GPT\ns 假如你是个人 你会开心吗\nAI 如果我真变成普通人 其实会挺开心的\ns 假如能看到别人的寿命，你愿意拥有这个能力吗？\nAI 绝对不会",
-    "author": "shimaoblog"
-  },
-  {
-    "title": "Markdown",
-    "link": "https://blog.imshimao.com/%E6%95%99%E7%A8%8B/2026/01/23/Markdown.html",
-    "pubDate": "2026-01-23T00:00:00.000Z",
-    "summary": "闲话\n转到Jekyll后我就必须要学Markdown了\n有人会问 我之前用的Typecho不也是md编辑器吗\n对于这个问题 我一般都是用HTML写的\n文件\nMarkdown文件有两种后缀\n.md\n.markdown\n我们一般使用第一种\n常见\n粗体是两个\n**\n斜体是一个\n*\n标题有六种\n一级标题\n二级标题\n三级标题\n四级标题\n五级标题\n六级标题\n注意 #号后面要有空格\n进阶\n这是被划掉的内容\n~~",
     "author": "shimaoblog"
   }
 ]

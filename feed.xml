@@ -5,6 +5,15 @@
     <link>https://shimaoblog.github.io/Zilihangjian/</link>
     <description>独立博客聚合站点</description>
     <item>
+      <title>我家的猫生了(๑•॒̀ ູ॒•́๑)</title>
+      <link>https://blog.imshimao.com/%E7%8C%AB/2026/06/18/catbaby.html</link>
+      <pubDate>2026-06-18T00:00:00.000Z</pubDate>
+      <description>妈妈叫三元，她很可爱。
+
+它好累…</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
       <title>做了一个适合小白玩的网页ARG</title>
       <link>https://blog.imshimao.com/arg/2026/06/15/dt.html</link>
       <pubDate>2026-06-15T00:00:00.000Z</pubDate>
@@ -115,37 +124,6 @@ s 假如你是个人 你会开心吗
 AI 如果我真变成普通人 其实会挺开心的
 s 假如能看到别人的寿命，你愿意拥有这个能力吗？
 AI 绝对不会</description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>https://blog.imshimao.com/%E6%95%99%E7%A8%8B/2026/01/23/Markdown.html</link>
-      <pubDate>2026-01-23T00:00:00.000Z</pubDate>
-      <description>闲话
-转到Jekyll后我就必须要学Markdown了
-有人会问 我之前用的Typecho不也是md编辑器吗
-对于这个问题 我一般都是用HTML写的
-文件
-Markdown文件有两种后缀
-.md
-.markdown
-我们一般使用第一种
-常见
-粗体是两个
-**
-斜体是一个
-*
-标题有六种
-一级标题
-二级标题
-三级标题
-四级标题
-五级标题
-六级标题
-注意 #号后面要有空格
-进阶
-这是被划掉的内容
-~~</description>
       <author>shimaoblog</author>
     </item>
   </channel>
