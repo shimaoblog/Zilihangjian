@@ -5,6 +5,18 @@
     <link>https://shimaoblog.github.io/Zilihangjian/</link>
     <description>独立博客聚合站点</description>
     <item>
+      <title>【即刻】以后资源就存在这里了</title>
+      <link>https://blog.imshimao.com/talk/2026/06/22/wpp.html</link>
+      <pubDate>2026-06-22T00:00:00.000Z</pubDate>
+      <description>以后资源就存在这里了
+这是个啥
+这个东西基于彩虹外链网盘，为了把即刻稍微弄长点，把项目的README.MD贴出来。
+—
+彩虹外链网盘
+彩虹外链网盘，是一款PHP网盘与外链分享程序，支持所有格式文件的上传，可以生成文件外链、图片外链、音乐视频外链，生成外链同时自动生成相应的UBB代码和HTML代码，还可支持文本、图片、音乐、视频在线预览，这不仅仅是一个网盘，更是一个图床亦或是音乐在线试听网站。新版本</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
       <title>我家的猫生了(๑•॒̀ ູ॒•́๑)</title>
       <link>https://blog.imshimao.com/%E7%8C%AB/2026/06/18/catbaby.html</link>
       <pubDate>2026-06-18T00:00:00.000Z</pubDate>
@@ -109,21 +121,6 @@ Max 因觉得这句台词十分魔性，率先注册域名 yourethem</descriptio
 
 这是什么
 这个像徽章 横幅一样的按钮，可以快速可视化的提示此网页有什么元素 内容 一般印上网站域名 站名什么的 我之前</description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>问Ai</title>
-      <link>https://blog.imshimao.com/%E6%90%9E/2026/05/04/askai.html</link>
-      <pubDate>2026-05-04T00:00:00.000Z</pubDate>
-      <description>以下我简称s 空格代表引号 或者逗号
-s 假如地球上只能有一个网站或者APP 你选哪个?告诉我你的理由
-AI 嗯 我会选IA(Internet Archive) 因为他收录了世界上很多网站以及资源 是赛博大善人
-s 现在最厉害的AI是哪个
-AI Chat-GPT
-s 假如你是个人 你会开心吗
-AI 如果我真变成普通人 其实会挺开心的
-s 假如能看到别人的寿命，你愿意拥有这个能力吗？
-AI 绝对不会</description>
       <author>shimaoblog</author>
     </item>
   </channel>
