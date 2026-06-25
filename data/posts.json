@@ -1,5 +1,12 @@
 [
   {
+    "title": "分享下本站自用的Archive模板，适用于Jekyll",
+    "link": "https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/25/followblog.html",
+    "pubDate": "2026-06-25T00:00:00.000Z",
+    "summary": "注意！\n我不知道这个主题是否与其他的Jekyll主题搭配的恰当，如果不满意这个样式，请修改文件内的CSS。\n额\n因为我觉得现在这个Archive非常非常的酷，再加上功能繁多，就打算打包出来分享。\n功能\n搜索\n按时间排序\n按合集\n按标签\n标签云\n是不是功能还蛮多的呢˶>ᗜ<˶\n    \n如何使用\n上传源代码到你的Jekyll目录内，应该很多人是用Pages做Jekyll站点的吧…\n代码\n点击这里下载",
+    "author": "shimaoblog"
+  },
+  {
     "title": "新人第一次玩Discord,你可以来我的服务器聊天吗？",
     "link": "https://blog.imshimao.com/%E4%BA%92%E8%81%94%E7%BD%91/2026/06/23/firstdiscord.html",
     "pubDate": "2026-06-23T00:00:00.000Z",
@@ -25,13 +32,6 @@
     "link": "https://blog.imshimao.com/%E5%B7%A5%E5%85%B7/2026/06/14/bestmobileIE.html",
     "pubDate": "2026-06-14T00:00:00.000Z",
     "summary": "不知道为啥，排班有问题  。\n这个标题可能不那啥，如果有时间会重新构思。\n核心优点\n小到离谱的大小\nX浏览器在一种国产臃肿浏览器，甚至是Edge,Chrome面前就像个小小的萝莉。\n没有说Edge Chrome不小的意思(笑)\nX浏览器大小仅仅1MB 比Via还小，安装秒开\n无广告\n比起某大厂的手机浏览器，那X浏览器简直像个尊重你的的好人。\n隐私保护\nX浏览器只申请作为一个浏览器必要的权限，不收集",
-    "author": "shimaoblog"
-  },
-  {
-    "title": "Blogsclub关注名单",
-    "link": "https://blog.imshimao.com/%E6%96%87%E5%8C%96/2026/06/08/followblog.html",
-    "pubDate": "2026-06-08T00:00:00.000Z",
-    "summary": "",
     "author": "shimaoblog"
   },
   {

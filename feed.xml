@@ -5,6 +5,28 @@
     <link>https://shimaoblog.github.io/Zilihangjian/</link>
     <description>独立博客聚合站点</description>
     <item>
+      <title>分享下本站自用的Archive模板，适用于Jekyll</title>
+      <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/25/followblog.html</link>
+      <pubDate>2026-06-25T00:00:00.000Z</pubDate>
+      <description>注意！
+我不知道这个主题是否与其他的Jekyll主题搭配的恰当，如果不满意这个样式，请修改文件内的CSS。
+额
+因为我觉得现在这个Archive非常非常的酷，再加上功能繁多，就打算打包出来分享。
+功能
+搜索
+按时间排序
+按合集
+按标签
+标签云
+是不是功能还蛮多的呢˶&gt;ᗜ&lt;˶
+    
+如何使用
+上传源代码到你的Jekyll目录内，应该很多人是用Pages做Jekyll站点的吧…
+代码
+点击这里下载</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
       <title>新人第一次玩Discord,你可以来我的服务器聊天吗？</title>
       <link>https://blog.imshimao.com/%E4%BA%92%E8%81%94%E7%BD%91/2026/06/23/firstdiscord.html</link>
       <pubDate>2026-06-23T00:00:00.000Z</pubDate>
@@ -58,13 +80,6 @@ X浏览器大小仅仅1MB 比Via还小，安装秒开
 比起某大厂的手机浏览器，那X浏览器简直像个尊重你的的好人。
 隐私保护
 X浏览器只申请作为一个浏览器必要的权限，不收集</description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>Blogsclub关注名单</title>
-      <link>https://blog.imshimao.com/%E6%96%87%E5%8C%96/2026/06/08/followblog.html</link>
-      <pubDate>2026-06-08T00:00:00.000Z</pubDate>
-      <description/>
       <author>shimaoblog</author>
     </item>
     <item>
