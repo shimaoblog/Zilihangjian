@@ -5,6 +5,25 @@
     <link>https://shimaoblog.github.io/Zilihangjian/</link>
     <description>独立博客聚合站点</description>
     <item>
+      <title>Minima主题功能增强和美化笔记</title>
+      <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/26/haokandeminima.html</link>
+      <pubDate>2026-06-26T00:00:00.000Z</pubDate>
+      <description>额 貌似头图用错了 这篇教程是针对 2.x 的啊
+前言
+Jekyll 的默认主题 Minima 是一款非常优秀的主题 但是功能很少…
+本文会用一些 歪门邪道 来进行一个功能的增强和美化
+本文所有内容都可能仅适用于 Minima 2.x 稳定版 !!!
+社交链接增强
+新建 _includes/social.html
+写入内容
+
+&lt;ul class="social-media-list"&gt;
+
+  
+ </description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
       <title>分享下本站自用的Archive模板，适用于Jekyll</title>
       <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/25/followblog.html</link>
       <pubDate>2026-06-25T00:00:00.000Z</pubDate>
@@ -27,27 +46,6 @@
       <author>shimaoblog</author>
     </item>
     <item>
-      <title>新人第一次玩Discord,你可以来我的服务器聊天吗？</title>
-      <link>https://blog.imshimao.com/%E4%BA%92%E8%81%94%E7%BD%91/2026/06/23/firstdiscord.html</link>
-      <pubDate>2026-06-23T00:00:00.000Z</pubDate>
-      <description>加入频道戳这里https://discord.gg/XSBZSz7xF
-Join
-我们的Discord是一个非常火的通讯平台。
-那确实好玩
-确实挺好玩的。
-还能发送Markdown呢
-
-这我无疑是兴奋的，如果支持HTML，是不是可以把聊天框做成一个前端小游戏
-我也要开个
-这是经过高度定制以后的服务器截图。
-FrutigerAero风格美学
-
-那我也要开一个服务器咯。
-虽然这和我理解的服务器不一样
-</description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
       <title>我家的猫生了(๑•॒̀ ູ॒•́๑)</title>
       <link>https://blog.imshimao.com/%E7%8C%AB/2026/06/18/catbaby.html</link>
       <pubDate>2026-06-18T00:00:00.000Z</pubDate>
@@ -57,21 +55,10 @@ FrutigerAero风格美学
       <author>shimaoblog</author>
     </item>
     <item>
-      <title>做了一个适合小白玩的网页ARG</title>
-      <link>https://blog.imshimao.com/arg/2026/06/15/dt.html</link>
-      <pubDate>2026-06-15T00:00:00.000Z</pubDate>
-      <description>灯塔计划
-因为致敬银河电灯老师
-开始探索</description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>移动端最强浏览器，X浏览器有多好用?</title>
+      <title>推荐下X浏览器</title>
       <link>https://blog.imshimao.com/%E5%B7%A5%E5%85%B7/2026/06/14/bestmobileIE.html</link>
       <pubDate>2026-06-14T00:00:00.000Z</pubDate>
-      <description>不知道为啥，排班有问题  。
-这个标题可能不那啥，如果有时间会重新构思。
-核心优点
+      <description>核心优点
 小到离谱的大小
 X浏览器在一种国产臃肿浏览器，甚至是Edge,Chrome面前就像个小小的萝莉。
 没有说Edge Chrome不小的意思(笑)
@@ -79,7 +66,11 @@ X浏览器大小仅仅1MB 比Via还小，安装秒开
 无广告
 比起某大厂的手机浏览器，那X浏览器简直像个尊重你的的好人。
 隐私保护
-X浏览器只申请作为一个浏览器必要的权限，不收集</description>
+X浏览器只申请作为一个浏览器必要的权限，不收集你的隐私。像个外人一样
+Telegram同款
+清理按钮。
+极速加载
+X浏览</description>
       <author>shimaoblog</author>
     </item>
     <item>
@@ -145,6 +136,37 @@ Max 因觉得这句台词十分魔性，率先注册域名 yourethem</descriptio
 
 这是什么
 这个像徽章 横幅一样的按钮，可以快速可视化的提示此网页有什么元素 内容 一般印上网站域名 站名什么的 我之前</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://blog.imshimao.com/%E6%95%99%E7%A8%8B/2026/01/23/Markdown.html</link>
+      <pubDate>2026-01-23T00:00:00.000Z</pubDate>
+      <description>闲话
+转到Jekyll后我就必须要学Markdown了
+有人会问 我之前用的Typecho不也是md编辑器吗
+对于这个问题 我一般都是用HTML写的
+文件
+Markdown文件有两种后缀
+.md
+.markdown
+我们一般使用第一种
+常见
+粗体是两个
+**
+斜体是一个
+*
+标题有六种
+一级标题
+二级标题
+三级标题
+四级标题
+五级标题
+六级标题
+注意 #号后面要有空格
+进阶
+这是被划掉的内容
+~~</description>
       <author>shimaoblog</author>
     </item>
   </channel>

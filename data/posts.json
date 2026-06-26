@@ -1,16 +1,16 @@
 [
   {
+    "title": "Minima主题功能增强和美化笔记",
+    "link": "https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/26/haokandeminima.html",
+    "pubDate": "2026-06-26T00:00:00.000Z",
+    "summary": "额 貌似头图用错了 这篇教程是针对 2.x 的啊\n前言\nJekyll 的默认主题 Minima 是一款非常优秀的主题 但是功能很少…\n本文会用一些 歪门邪道 来进行一个功能的增强和美化\n本文所有内容都可能仅适用于 Minima 2.x 稳定版 !!!\n社交链接增强\n新建 _includes/social.html\n写入内容\n\n<ul class=\"social-media-list\">\n\n  \n ",
+    "author": "shimaoblog"
+  },
+  {
     "title": "分享下本站自用的Archive模板，适用于Jekyll",
     "link": "https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/25/followblog.html",
     "pubDate": "2026-06-25T00:00:00.000Z",
     "summary": "注意！\n我不知道这个主题是否与其他的Jekyll主题搭配的恰当，如果不满意这个样式，请修改文件内的CSS。\n额\n因为我觉得现在这个Archive非常非常的酷，再加上功能繁多，就打算打包出来分享。\n功能\n搜索\n按时间排序\n按合集\n按标签\n标签云\n是不是功能还蛮多的呢˶>ᗜ<˶\n    \n如何使用\n上传源代码到你的Jekyll目录内，应该很多人是用Pages做Jekyll站点的吧…\n代码\n点击这里下载",
-    "author": "shimaoblog"
-  },
-  {
-    "title": "新人第一次玩Discord,你可以来我的服务器聊天吗？",
-    "link": "https://blog.imshimao.com/%E4%BA%92%E8%81%94%E7%BD%91/2026/06/23/firstdiscord.html",
-    "pubDate": "2026-06-23T00:00:00.000Z",
-    "summary": "加入频道戳这里https://discord.gg/XSBZSz7xF\nJoin\n我们的Discord是一个非常火的通讯平台。\n那确实好玩\n确实挺好玩的。\n还能发送Markdown呢\n\n这我无疑是兴奋的，如果支持HTML，是不是可以把聊天框做成一个前端小游戏\n我也要开个\n这是经过高度定制以后的服务器截图。\nFrutigerAero风格美学\n\n那我也要开一个服务器咯。\n虽然这和我理解的服务器不一样\n",
     "author": "shimaoblog"
   },
   {
@@ -21,17 +21,10 @@
     "author": "shimaoblog"
   },
   {
-    "title": "做了一个适合小白玩的网页ARG",
-    "link": "https://blog.imshimao.com/arg/2026/06/15/dt.html",
-    "pubDate": "2026-06-15T00:00:00.000Z",
-    "summary": "灯塔计划\n因为致敬银河电灯老师\n开始探索",
-    "author": "shimaoblog"
-  },
-  {
-    "title": "移动端最强浏览器，X浏览器有多好用?",
+    "title": "推荐下X浏览器",
     "link": "https://blog.imshimao.com/%E5%B7%A5%E5%85%B7/2026/06/14/bestmobileIE.html",
     "pubDate": "2026-06-14T00:00:00.000Z",
-    "summary": "不知道为啥，排班有问题  。\n这个标题可能不那啥，如果有时间会重新构思。\n核心优点\n小到离谱的大小\nX浏览器在一种国产臃肿浏览器，甚至是Edge,Chrome面前就像个小小的萝莉。\n没有说Edge Chrome不小的意思(笑)\nX浏览器大小仅仅1MB 比Via还小，安装秒开\n无广告\n比起某大厂的手机浏览器，那X浏览器简直像个尊重你的的好人。\n隐私保护\nX浏览器只申请作为一个浏览器必要的权限，不收集",
+    "summary": "核心优点\n小到离谱的大小\nX浏览器在一种国产臃肿浏览器，甚至是Edge,Chrome面前就像个小小的萝莉。\n没有说Edge Chrome不小的意思(笑)\nX浏览器大小仅仅1MB 比Via还小，安装秒开\n无广告\n比起某大厂的手机浏览器，那X浏览器简直像个尊重你的的好人。\n隐私保护\nX浏览器只申请作为一个浏览器必要的权限，不收集你的隐私。像个外人一样\nTelegram同款\n清理按钮。\n极速加载\nX浏览",
     "author": "shimaoblog"
   },
   {
@@ -67,6 +60,13 @@
     "link": "https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/05/09/88x31.html",
     "pubDate": "2026-05-09T00:00:00.000Z",
     "summary": "我仍未知道那天所看见的 88 × 31 的名字\n这可能是全网最全的关于88x31图标的文章了…但是我也是站在巨人的肩膀上 谢谢页尾的所有网站\n引言\n如果你是一个在2000-2010年热爱上网的一个网络大虾 那你一定看到过88x31的小icon\n这是一个示例 阿江守候的小icon\n\n这是什么\n这个像徽章 横幅一样的按钮，可以快速可视化的提示此网页有什么元素 内容 一般印上网站域名 站名什么的 我之前",
+    "author": "shimaoblog"
+  },
+  {
+    "title": "Markdown",
+    "link": "https://blog.imshimao.com/%E6%95%99%E7%A8%8B/2026/01/23/Markdown.html",
+    "pubDate": "2026-01-23T00:00:00.000Z",
+    "summary": "闲话\n转到Jekyll后我就必须要学Markdown了\n有人会问 我之前用的Typecho不也是md编辑器吗\n对于这个问题 我一般都是用HTML写的\n文件\nMarkdown文件有两种后缀\n.md\n.markdown\n我们一般使用第一种\n常见\n粗体是两个\n**\n斜体是一个\n*\n标题有六种\n一级标题\n二级标题\n三级标题\n四级标题\n五级标题\n六级标题\n注意 #号后面要有空格\n进阶\n这是被划掉的内容\n~~",
     "author": "shimaoblog"
   }
 ]
