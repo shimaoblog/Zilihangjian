@@ -5,6 +5,15 @@
     <link>https://shimaoblog.github.io/Zilihangjian/</link>
     <description>独立博客聚合站点</description>
     <item>
+      <title>【即刻】好喜欢这种风格</title>
+      <link>https://blog.imshimao.com/talk/2026/06/27/minimalist.html</link>
+      <pubDate>2026-06-27T00:00:00.000Z</pubDate>
+      <description>好喜欢这种风格。
+by ncoll36
+https://www.deviantart.com/ncoll36</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
       <title>Minima主题功能增强和美化笔记</title>
       <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/26/haokandeminima.html</link>
       <pubDate>2026-06-26T00:00:00.000Z</pubDate>
@@ -136,37 +145,6 @@ Max 因觉得这句台词十分魔性，率先注册域名 yourethem</descriptio
 
 这是什么
 这个像徽章 横幅一样的按钮，可以快速可视化的提示此网页有什么元素 内容 一般印上网站域名 站名什么的 我之前</description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>https://blog.imshimao.com/%E6%95%99%E7%A8%8B/2026/01/23/Markdown.html</link>
-      <pubDate>2026-01-23T00:00:00.000Z</pubDate>
-      <description>闲话
-转到Jekyll后我就必须要学Markdown了
-有人会问 我之前用的Typecho不也是md编辑器吗
-对于这个问题 我一般都是用HTML写的
-文件
-Markdown文件有两种后缀
-.md
-.markdown
-我们一般使用第一种
-常见
-粗体是两个
-**
-斜体是一个
-*
-标题有六种
-一级标题
-二级标题
-三级标题
-四级标题
-五级标题
-六级标题
-注意 #号后面要有空格
-进阶
-这是被划掉的内容
-~~</description>
       <author>shimaoblog</author>
     </item>
   </channel>
