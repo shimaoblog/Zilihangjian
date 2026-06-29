@@ -5,6 +5,19 @@
     <link>https://shimaoblog.github.io/Zilihangjian/</link>
     <description>独立博客聚合站点</description>
     <item>
+      <title>险些中招钓鱼诈骗，复盘我的踩坑全过程</title>
+      <link>https://blog.imshimao.com/%E7%94%9F%E6%B4%BB/2026/06/29/zhapian.html</link>
+      <pubDate>2026-06-29T00:00:00.000Z</pubDate>
+      <description>经过了AI润色。
+起因
+QQ自带内置邮件助手，默认邮箱格式为QQ号@qq.com。我平时几乎不会使用这个邮箱，号码也很少刻意记，本以为不会收到什么消息。
+但在6月28日下午，我收到一封来路不明的陌生邮件。
+接触与识破
+一时好奇我回复了邮件，很快收到骗子自动推送的一条链接。点开后页面看似腾讯文档，细看却漏洞百出，现在回想才惊觉自己当时警惕心不足。
+这个仿站制作算不上粗制滥造，基础交互一应俱全，足以蒙</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
       <title>【即刻】好喜欢这种风格</title>
       <link>https://blog.imshimao.com/talk/2026/06/27/minimalist.html</link>
       <pubDate>2026-06-27T00:00:00.000Z</pubDate>
@@ -131,20 +144,6 @@ BitView </description>
 YTMND 全称 You’re The Man Now, Dog。
 该网站诞生于2001年7月6日，由 Max Goldberg（网名 Max）创立。名称出自2000年电影《心灵访客》（Finding Forrester）预告片中的经典台词，是肖恩·康纳利对主角说出的一句口语化街头调侃。
 Max 因觉得这句台词十分魔性，率先注册域名 yourethem</description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>88 × 31</title>
-      <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/05/09/88x31.html</link>
-      <pubDate>2026-05-09T00:00:00.000Z</pubDate>
-      <description>我仍未知道那天所看见的 88 × 31 的名字
-这可能是全网最全的关于88x31图标的文章了…但是我也是站在巨人的肩膀上 谢谢页尾的所有网站
-引言
-如果你是一个在2000-2010年热爱上网的一个网络大虾 那你一定看到过88x31的小icon
-这是一个示例 阿江守候的小icon
-
-这是什么
-这个像徽章 横幅一样的按钮，可以快速可视化的提示此网页有什么元素 内容 一般印上网站域名 站名什么的 我之前</description>
       <author>shimaoblog</author>
     </item>
   </channel>
