@@ -1,5 +1,12 @@
 [
   {
+    "title": "给你的Jekyll博客创建一个动态/说说页面",
+    "link": "https://blog.imshimao.com/%E6%95%99%E7%A8%8B/2026/07/01/jekylltalk.html",
+    "pubDate": "2026-07-01T00:00:00.000Z",
+    "summary": "扯\n很多个人博客都有自己的说说页面，所以我建议你也搞一个。\n页面\n在仓库根目录新建talk/index.md，文件内容如下’\n---\nlayout: default\ntitle: 即刻(也可以改成你喜欢的名字)\npermalink: /talk/\n---\n<style>\n\n.timeline{max-width:800px;margin:2rem auto;padding:0 1rem}\n.tal",
+    "author": "shimaoblog"
+  },
+  {
     "title": "险些中招钓鱼诈骗，复盘我的踩坑全过程",
     "link": "https://blog.imshimao.com/%E7%94%9F%E6%B4%BB/2026/06/29/zhapian.html",
     "pubDate": "2026-06-29T00:00:00.000Z",
@@ -11,20 +18,6 @@
     "link": "https://blog.imshimao.com/talk/2026/06/27/minimalist.html",
     "pubDate": "2026-06-27T00:00:00.000Z",
     "summary": "好喜欢这种风格。\nby ncoll36\nhttps://www.deviantart.com/ncoll36",
-    "author": "shimaoblog"
-  },
-  {
-    "title": "Minima主题功能增强和美化笔记",
-    "link": "https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/26/haokandeminima.html",
-    "pubDate": "2026-06-26T00:00:00.000Z",
-    "summary": "额 貌似头图用错了 这篇教程是针对 2.x 的啊\n前言\nJekyll 的默认主题 Minima 是一款非常优秀的主题 但是功能很少…\n本文会用一些 歪门邪道 来进行一个功能的增强和美化\n本文所有内容都可能仅适用于 Minima 2.x 稳定版 !!!\n社交链接增强\n新建 _includes/social.html\n写入内容\n\n<ul class=\"social-media-list\">\n\n  \n ",
-    "author": "shimaoblog"
-  },
-  {
-    "title": "分享下本站自用的Archive模板，适用于Jekyll",
-    "link": "https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/25/followblog.html",
-    "pubDate": "2026-06-25T00:00:00.000Z",
-    "summary": "注意！\n我不知道这个主题是否与其他的Jekyll主题搭配的恰当，如果不满意这个样式，请修改文件内的CSS。\n额\n因为我觉得现在这个Archive非常非常的酷，再加上功能繁多，就打算打包出来分享。\n功能\n搜索\n按时间排序\n按合集\n按标签\n标签云\n是不是功能还蛮多的呢˶>ᗜ<˶\n    \n如何使用\n上传源代码到你的Jekyll目录内，应该很多人是用Pages做Jekyll站点的吧…\n代码\n点击这里下载",
     "author": "shimaoblog"
   },
   {
@@ -67,6 +60,13 @@
     "link": "https://blog.imshimao.com/%E7%BD%91%E7%BB%9C%E6%96%87%E5%8C%96/2026/05/13/ytmnd.html",
     "pubDate": "2026-05-13T00:00:00.000Z",
     "summary": "用了ai润色 移植以前的文章\n基础认识与由来\nYTMND 全称 You’re The Man Now, Dog。\n该网站诞生于2001年7月6日，由 Max Goldberg（网名 Max）创立。名称出自2000年电影《心灵访客》（Finding Forrester）预告片中的经典台词，是肖恩·康纳利对主角说出的一句口语化街头调侃。\nMax 因觉得这句台词十分魔性，率先注册域名 yourethem",
+    "author": "shimaoblog"
+  },
+  {
+    "title": "88 × 31",
+    "link": "https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/05/09/88x31.html",
+    "pubDate": "2026-05-09T00:00:00.000Z",
+    "summary": "我仍未知道那天所看见的 88 × 31 的名字\n这可能是全网最全的关于88x31图标的文章了…但是我也是站在巨人的肩膀上 谢谢页尾的所有网站\n引言\n如果你是一个在2000-2010年热爱上网的一个网络大虾 那你一定看到过88x31的小icon\n这是一个示例 阿江守候的小icon\n\n这是什么\n这个像徽章 横幅一样的按钮，可以快速可视化的提示此网页有什么元素 内容 一般印上网站域名 站名什么的 我之前",
     "author": "shimaoblog"
   }
 ]

@@ -5,6 +5,25 @@
     <link>https://shimaoblog.github.io/Zilihangjian/</link>
     <description>独立博客聚合站点</description>
     <item>
+      <title>给你的Jekyll博客创建一个动态/说说页面</title>
+      <link>https://blog.imshimao.com/%E6%95%99%E7%A8%8B/2026/07/01/jekylltalk.html</link>
+      <pubDate>2026-07-01T00:00:00.000Z</pubDate>
+      <description>扯
+很多个人博客都有自己的说说页面，所以我建议你也搞一个。
+页面
+在仓库根目录新建talk/index.md，文件内容如下’
+---
+layout: default
+title: 即刻(也可以改成你喜欢的名字)
+permalink: /talk/
+---
+&lt;style&gt;
+
+.timeline{max-width:800px;margin:2rem auto;padding:0 1rem}
+.tal</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
       <title>险些中招钓鱼诈骗，复盘我的踩坑全过程</title>
       <link>https://blog.imshimao.com/%E7%94%9F%E6%B4%BB/2026/06/29/zhapian.html</link>
       <pubDate>2026-06-29T00:00:00.000Z</pubDate>
@@ -24,47 +43,6 @@ QQ自带内置邮件助手，默认邮箱格式为QQ号@qq.com。我平时几乎
       <description>好喜欢这种风格。
 by ncoll36
 https://www.deviantart.com/ncoll36</description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>Minima主题功能增强和美化笔记</title>
-      <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/26/haokandeminima.html</link>
-      <pubDate>2026-06-26T00:00:00.000Z</pubDate>
-      <description>额 貌似头图用错了 这篇教程是针对 2.x 的啊
-前言
-Jekyll 的默认主题 Minima 是一款非常优秀的主题 但是功能很少…
-本文会用一些 歪门邪道 来进行一个功能的增强和美化
-本文所有内容都可能仅适用于 Minima 2.x 稳定版 !!!
-社交链接增强
-新建 _includes/social.html
-写入内容
-
-&lt;ul class="social-media-list"&gt;
-
-  
- </description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>分享下本站自用的Archive模板，适用于Jekyll</title>
-      <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/06/25/followblog.html</link>
-      <pubDate>2026-06-25T00:00:00.000Z</pubDate>
-      <description>注意！
-我不知道这个主题是否与其他的Jekyll主题搭配的恰当，如果不满意这个样式，请修改文件内的CSS。
-额
-因为我觉得现在这个Archive非常非常的酷，再加上功能繁多，就打算打包出来分享。
-功能
-搜索
-按时间排序
-按合集
-按标签
-标签云
-是不是功能还蛮多的呢˶&gt;ᗜ&lt;˶
-    
-如何使用
-上传源代码到你的Jekyll目录内，应该很多人是用Pages做Jekyll站点的吧…
-代码
-点击这里下载</description>
       <author>shimaoblog</author>
     </item>
     <item>
@@ -144,6 +122,20 @@ BitView </description>
 YTMND 全称 You’re The Man Now, Dog。
 该网站诞生于2001年7月6日，由 Max Goldberg（网名 Max）创立。名称出自2000年电影《心灵访客》（Finding Forrester）预告片中的经典台词，是肖恩·康纳利对主角说出的一句口语化街头调侃。
 Max 因觉得这句台词十分魔性，率先注册域名 yourethem</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
+      <title>88 × 31</title>
+      <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/05/09/88x31.html</link>
+      <pubDate>2026-05-09T00:00:00.000Z</pubDate>
+      <description>我仍未知道那天所看见的 88 × 31 的名字
+这可能是全网最全的关于88x31图标的文章了…但是我也是站在巨人的肩膀上 谢谢页尾的所有网站
+引言
+如果你是一个在2000-2010年热爱上网的一个网络大虾 那你一定看到过88x31的小icon
+这是一个示例 阿江守候的小icon
+
+这是什么
+这个像徽章 横幅一样的按钮，可以快速可视化的提示此网页有什么元素 内容 一般印上网站域名 站名什么的 我之前</description>
       <author>shimaoblog</author>
     </item>
   </channel>
