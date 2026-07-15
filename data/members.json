@@ -7,6 +7,14 @@
         "rssUrl": "https://blog.imshimao.com/feed.xml",
         "avatar": "https://github.com/shimaoblog.png",
         "bio": "就叫石猫好啦..."
+    },
+    {
+        "id": 2,
+        "name": "红果茶",
+        "blogName": "红果茶笔记",
+        "blogUrl": "https://wtzk.lol",
+        "rssUrl": "https://wtzk.lol/index.php/feed/",
+        "avatar": "",
+        "bio": "爱瞎扯"
     }
 ]
-
