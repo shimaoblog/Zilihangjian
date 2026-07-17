@@ -1,5 +1,12 @@
 [
   {
+    "title": "不想用Jekyll了。",
+    "link": "https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/07/17/byejek.html",
+    "pubDate": "2026-07-17T00:00:00.000Z",
+    "summary": "想搞hexo。",
+    "author": "shimaoblog"
+  },
+  {
     "title": "Frutiger Aero美学的解读",
     "link": "https://blog.imshimao.com/%E6%96%87%E5%8C%96/2026/07/13/frutigeraero.html",
     "pubDate": "2026-07-13T00:00:00.000Z",
@@ -60,13 +67,6 @@
     "link": "https://blog.imshimao.com/%E6%96%87%E5%8C%96/2026/05/23/youtube.html",
     "pubDate": "2026-05-23T00:00:00.000Z",
     "summary": "移植以前的文章\n这个文章是收集一些国内外仿古早视频平台的 因为这类网站现在大多是个人操办 所以说站点很容易掉 可用性无法百分百\nVidLii\n所有者:Aniki lolwut\nVidLii - Display yourself.\nhttps://www.vidlii.st/\n这个站点以前争议很大 .nu和.top域名均掉 但不影响他是目前最好的网站\nBitView\n所有者:Jan\nBitView ",
-    "author": "shimaoblog"
-  },
-  {
-    "title": "YTMND",
-    "link": "https://blog.imshimao.com/%E7%BD%91%E7%BB%9C%E6%96%87%E5%8C%96/2026/05/13/ytmnd.html",
-    "pubDate": "2026-05-13T00:00:00.000Z",
-    "summary": "用了ai润色 移植以前的文章\n基础认识与由来\nYTMND 全称 You’re The Man Now, Dog。\n该网站诞生于2001年7月6日，由 Max Goldberg（网名 Max）创立。名称出自2000年电影《心灵访客》（Finding Forrester）预告片中的经典台词，是肖恩·康纳利对主角说出的一句口语化街头调侃。\nMax 因觉得这句台词十分魔性，率先注册域名 yourethem",
     "author": "shimaoblog"
   }
 ]

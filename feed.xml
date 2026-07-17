@@ -5,6 +5,13 @@
     <link>https://shimaoblog.github.io/Zilihangjian/</link>
     <description>独立博客聚合站点</description>
     <item>
+      <title>不想用Jekyll了。</title>
+      <link>https://blog.imshimao.com/%E6%8A%80%E6%9C%AF/2026/07/17/byejek.html</link>
+      <pubDate>2026-07-17T00:00:00.000Z</pubDate>
+      <description>想搞hexo。</description>
+      <author>shimaoblog</author>
+    </item>
+    <item>
       <title>Frutiger Aero美学的解读</title>
       <link>https://blog.imshimao.com/%E6%96%87%E5%8C%96/2026/07/13/frutigeraero.html</link>
       <pubDate>2026-07-13T00:00:00.000Z</pubDate>
@@ -145,17 +152,6 @@ https://www.vidlii.st/
 BitView
 所有者:Jan
 BitView </description>
-      <author>shimaoblog</author>
-    </item>
-    <item>
-      <title>YTMND</title>
-      <link>https://blog.imshimao.com/%E7%BD%91%E7%BB%9C%E6%96%87%E5%8C%96/2026/05/13/ytmnd.html</link>
-      <pubDate>2026-05-13T00:00:00.000Z</pubDate>
-      <description>用了ai润色 移植以前的文章
-基础认识与由来
-YTMND 全称 You’re The Man Now, Dog。
-该网站诞生于2001年7月6日，由 Max Goldberg（网名 Max）创立。名称出自2000年电影《心灵访客》（Finding Forrester）预告片中的经典台词，是肖恩·康纳利对主角说出的一句口语化街头调侃。
-Max 因觉得这句台词十分魔性，率先注册域名 yourethem</description>
       <author>shimaoblog</author>
     </item>
   </channel>
