@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>字里行间 | 独立博客聚集地</title>
+    <!-- Tailwind 引入 -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
+        /* 导航栏适配全局纸质风格 */
+        nav {
+            background: linear-gradient(to right, #faf8f5, #f5f1e8, #faf8f5);
+            border-bottom: 2px dashed var(--secondary);
+        }
+        /* 移动端菜单默认隐藏，全屏下拉 */
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--bg-light);
+            border-bottom: 2px dashed var(--secondary);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.06);
+        }
+        .mobile-menu.active {
+            display: block;
+        }
+        .mobile-menu a {
+            display: block;
+            padding: 14px 24px;
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+        .mobile-menu a:hover {
+            background: var(--bg-paper);
+        }
+
         /* 首页独有样式 */
         .hero-section {
             padding: 6rem 0;
@@ -59,9 +90,9 @@
 </head>
 <body>
     <!-- 导航栏 -->
-    <nav class="sticky top-0 z-50 py-4">
+    <nav class="sticky top-0 z-50 py-4 relative">
         <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
-            <a href="index.html" class="flex items-center space-x-2">
+            <a href="index.html" class="flex items-center space-x-2 no-underline">
                 <i class="fas fa-feather-alt text-2xl" style="color: var(--primary);"></i>
                 <span class="title-font text-2xl">字里行间</span>
             </a>
@@ -72,7 +103,7 @@
                 <a href="guestbook.html" class="nav-link">留言板</a>
                 <a href="join.html" class="btn-primary">申请入驻</a>
             </div>
-            <button class="md:hidden text-xl" id="mobile-menu-btn">
+            <button class="md:hidden text-xl bg-transparent border-0" id="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
             </button>
             <div class="mobile-menu" id="mobile-menu">
@@ -98,6 +129,94 @@
                 <a href="feed.html" class="btn-primary">
                     <i class="fas fa-book-open mr-2"></i> 读一篇文章
                 </a>
+                <a href="join.html" class="btn-outline">
+                    <i class="fas fa-pen-fancy mr-2"></i> 写下你的故事
+                </a>
+            </div>
+            <p class="handwritten text-2xl mt-12 opacity-70">
+                "每一个独立博客，都是一座小小的孤岛，我们在这里连成大陆"
+            </p>
+        </div>
+    </section>
+
+    <!-- 统计数据 -->
+    <section class="py-16 paper-bg">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <div id="member-count" class="stat-number">0</div>
+                    <p class="text-lg">有趣的灵魂</p>
+                </div>
+                <div class="p-6">
+                    <div id="post-count" class="stat-number">0</div>
+                    <p class="text-lg">真诚的文字</p>
+                </div>
+                <div class="p-6">
+                    <div id="update-time" class="stat-number text-sm">-</div>
+                    <p class="text-lg">最后更新</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新文章 -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="section-title title-font text-3xl mb-12 text-center">最近的文字</h2>
+            <div id="latest-posts" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 文章卡片将由JavaScript动态生成 -->
+            </div>
+            <div class="text-center mt-12">
+                <a href="feed.html" class="inline-flex items-center" style="color: var(--primary);">
+                    <span class="handwritten text-xl">翻到下一页</span>
+                    <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="py-12 mt-auto">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <i class="fas fa-feather-alt text-xl" style="color: var(--accent);"></i>
+                        <span class="title-font text-xl">字里行间</span>
+                    </div>
+                    <p class="opacity-70">用文字连接彼此</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/shimaoblog/Zilihangjian" class="opacity-70 hover:opacity-100 text-xl">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="feed.xml" class="opacity-70 hover:opacity-100 text-xl">
+                        <i class="fas fa-rss"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="text-center mt-8 pt-8 border-t border-gray-700 opacity-60">
+                <p>© 2026 字里行间 · 用心写，慢慢读</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // 移动端菜单切换
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadStats();
+            await loadLatestPosts();
+        });
+    </script>
+</body>
+</html>
                 <a href="join.html" class="btn-outline">
                     <i class="fas fa-pen-fancy mr-2"></i> 写下你的故事
                 </a>
