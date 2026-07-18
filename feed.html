@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>文章聚合 | 字里行间</title>
+    <!-- 引入Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
+        /* 导航全局纸质风格 */
+        nav {
+            background: linear-gradient(to right, #faf8f5, #f5f1e8, #faf8f5);
+            border-bottom: 2px dashed var(--secondary);
+            position: relative;
+        }
+        /* 移动端下拉菜单 */
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--bg-light);
+            border-bottom: 2px dashed var(--secondary);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.06);
+        }
+        .mobile-menu.active {
+            display: block;
+        }
+        .mobile-menu a {
+            display: block;
+            padding: 14px 24px;
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+        .mobile-menu a:hover {
+            background: var(--bg-paper);
+        }
+
         .article-item{
             padding: 1.8rem;
             margin-bottom: 1.5rem;
@@ -26,7 +58,7 @@
 <!-- 导航栏 -->
 <nav class="sticky top-0 z-50 py-4">
     <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
-        <a href="index.html" class="flex items-center space-x-2">
+        <a href="index.html" class="flex items-center space-x-2 no-underline">
             <i class="fas fa-feather-alt text-2xl" style="color: var(--primary);"></i>
             <span class="title-font text-2xl">字里行间</span>
         </a>
@@ -37,13 +69,13 @@
             <a href="guestbook.html" class="nav-link">留言板</a>
             <a href="join.html" class="btn-primary">申请入驻</a>
         </div>
-        <button class="md:hidden text-xl" id="mobile-menu-btn">
+        <button class="md:hidden text-xl bg-transparent border-0" id="mobile-menu-btn">
             <i class="fas fa-bars"></i>
         </button>
         <div class="mobile-menu" id="mobile-menu">
             <a href="index.html">首页</a>
             <a href="members.html">博主们</a>
-            <a href="feed.html">文章</a>
+            <a href="feed.html" style="color: var(--primary); font-weight:600;">文章</a>
             <a href="guestbook.html">留言板</a>
             <a href="join.html" class="btn-primary" style="margin: 0.5rem 2rem; text-align: center;">申请入驻</a>
         </div>
@@ -95,6 +127,13 @@
 
 <script src="js/main.js"></script>
 <script src="js/feed.js"></script>
+<!-- 移动端菜单交互脚本 -->
+<script>
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+    });
+</script>
 </body>
 </html>
-
